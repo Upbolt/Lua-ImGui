@@ -27,7 +27,10 @@ int main() {
 
 # Lua API
 ```lua
+-- Main window
 local Window = ImGui.new("Window", "example title")
+
+-- Inner elements
 local Label = ImGui.new("Label", Window)
 local TabSelector = ImGui.new("TabSelector", Window)
 
@@ -35,8 +38,8 @@ local Tab1 = TabSelector:AddTab("Tab1")
 local Tab2 = TabSelector:AddTab("Tab2")
 
 local Button = ImGui.new("Button", Tab1)
+local Slider = ImGui.new("Slider", Tab1, true) -- (boolean: 3) aligns it side-by-side !
 local ColorPicker = ImGui.new("ColorPicker", Tab2)
-local Slider = ImGui.new("Slider", Tab1)
 
 Label.Text = "Lua-ImGui Example"
 Slider.Text = "Slider Example"
