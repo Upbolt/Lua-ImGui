@@ -1,5 +1,5 @@
 # Lua-ImGui
-Object-oriented Lua binding for ImGui
+Object-oriented Lua bindings for ImGui
 
 This has been attempted naively, so you may encounter my strange code structuring.
 Feel free to contribute better solutions!
