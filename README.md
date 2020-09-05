@@ -52,3 +52,4 @@ Button.Callback = function()
   ImGui.new("Label", Tab1).Text = "Hello world"
 end
 ```
+<img src="https://i.gyazo.com/0cae8cae14688cc204b3cff064e8ba63.gif" />
