@@ -44,6 +44,7 @@ local ColorPicker = ImGui.new("ColorPicker", Tab2)
 Label.Text = "Lua-ImGui Example"
 Slider.Text = "Slider Example"
 Button.Text = "Button Example"
+ColorPicker.Text = "Color Picker Example"
 
 Slider.Min = -10
 Slider.Max = 10
