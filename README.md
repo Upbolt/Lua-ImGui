@@ -14,7 +14,7 @@ lua_State *l_G = luaL_newstate();
 #include "Lua-ImGui/bind.hpp"
 
 int main() {
-  lua_bind::init();
+  lua_bind::init(); // Initializes the "ImGui" global
   
   /* 
   lua_close(l_G); 
